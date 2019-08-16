@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="#354571"
+    tools:context=".FoodsActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:stretchColumns="*">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Foods"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#FFFFFF"/>
+
+        <TableRow>
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/cracker_btn"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="cracker"
+                android:onClick = "cracker_bnt"
+                />
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/ramen_btn"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Ramen"
+                android:onClick = "ramen_bnt"
+                />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/ice_cream_btn"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="ice cream"
+                android:onClick = "ice_cream_bnt"
+                />
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/peanut_btn"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Peanut"
+                android:onClick = "peanut_bnt"
+                />
+        </TableRow>
+
+        <Button
+            android:background="@drawable/rounded"
+            android:layout_margin="5dp"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+
+            android:id="@+id/bread_btn"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:text="bread"
+            android:onClick = "bread_bnt"
+            />
+    </TableLayout>
+</ScrollView>

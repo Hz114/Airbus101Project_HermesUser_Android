@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="#354571"
+    tools:context=".BeveragesActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:stretchColumns="*">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Beverages"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#FFFFFF"/>
+
+
+        <TableRow>
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/water_btn"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="water"
+                android:onClick = "water_bnt"
+
+                />
+
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/green_tea_bnt"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="green tea"
+                android:onClick = "green_tea_bnt"
+                />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/coffee_bnt"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="coffee"
+                android:onClick = "coffee_bnt"
+                />
+
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/juice_bnt"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="juice"
+                android:onClick = "juice_bnt"
+                />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/wine_bnt"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="wine"
+                android:onClick = "wine_bnt"
+                />
+
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/beer_bnt"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="beer"
+                android:onClick = "beer_bnt"
+                />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

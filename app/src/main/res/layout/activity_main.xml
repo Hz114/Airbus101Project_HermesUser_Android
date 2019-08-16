@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="#354571"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:stretchColumns="*">
+
+        <ImageView
+            android:paddingTop="20dp"
+            android:id="@+id/logo"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/hermes_logo_user" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Hermes"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="40dp"
+            android:textColor="#FFFFFF"/>
+
+        <TableRow>
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="13dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/info_flight_btn"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Info about flight"
+                android:onClick = "info_flight_bnt"
+                />
+
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/movie_bnt"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Movie"
+                android:onClick = "movie_bnt"
+                />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/music_bnt"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Music"
+                android:onClick = "music_bnt"
+                />
+
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/meal_btn"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="in-flight meal"
+                android:onClick = "meal_bnt"
+                />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/beverage_bnt"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Beverage"
+                android:onClick = "beverages_bnt"
+            />
+
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/food_bnt"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Food Snacks"
+                android:onClick = "food_bnt"
+                />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/amenities_bnt"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Amenities"
+                android:onClick = "amenities_bnt"
+                />
+
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/pills_bnt"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Pills Medicine"
+                android:onClick = "pills_bnt"
+                />
+        </TableRow>
+
+        <Button
+            android:background="@drawable/rounded"
+            android:layout_margin="5dp"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+
+            android:id="@+id/call_cabin_crew_btn"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:text="call cabin crew"
+            android:onClick = "call_cabin_crew_bnt"
+            />
+    </TableLayout>
+</ScrollView>

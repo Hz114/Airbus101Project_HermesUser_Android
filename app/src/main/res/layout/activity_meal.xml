@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="#354571"
+    tools:context=".MealActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:stretchColumns="*">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Meal"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:background="@drawable/rounded"
+            android:layout_margin="5dp"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+
+            android:id="@+id/beef_btn"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:text="beef"
+            android:onClick = "beef_bnt"
+            />
+        <Button
+            android:background="@drawable/rounded"
+            android:layout_margin="5dp"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+
+            android:id="@+id/seafood_btn"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:text="seafood"
+            android:onClick = "seafood_bnt"
+            />
+        <Button
+            android:background="@drawable/rounded"
+            android:layout_margin="5dp"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+
+            android:id="@+id/no_btn"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:text="no"
+            android:onClick = "no_bnt"
+            />
+
+    </TableLayout>
+</ScrollView>

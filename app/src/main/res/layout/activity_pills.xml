@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="#354571"
+    tools:context=".PillsActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:stretchColumns="*">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Pills"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#FFFFFF"/>
+
+        <TableRow>
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/paregoric_bnt"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="paregoric"
+                android:onClick = "paregoric_bnt"
+                />
+
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/digestive_bnt"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="digestive"
+                android:onClick = "digestive_bnt"
+                />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/sedative_bnt"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="sedative"
+                android:onClick = "sedative_bnt"
+                />
+
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/fever_reducer_bnt"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="fever reducer"
+                android:onClick = "fever_reducer_bnt"
+                />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/painkiller_bnt"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="painkiller"
+                android:onClick = "painkiller_bnt"
+                />
+
+            <Button
+                android:background="@drawable/rounded"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+
+                android:id="@+id/ointment_bnt"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="ointment"
+                android:onClick = "ointment_bnt"
+                />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "996535563667",
+    "firebase_url": "https://airbus-hermes.firebaseio.com",
+    "project_id": "airbus-hermes",
+    "storage_bucket": "airbus-hermes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996535563667:android:8414ae7a0da649de",
+        "android_client_info": {
+          "package_name": "com.example.hermes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996535563667-ti6voe3706r134ffv2j53arkigfv5sn5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hermes",
+            "certificate_hash": "aad181f5e255709e8aab3719d55eedf463e9f34c"
+          }
+        },
+        {
+          "client_id": "996535563667-1fcja2s34sdfhmr61e826me9f0ehg6qs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkRLtzqPwVY-6ch-fxlD_2tX2d0RIVzqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996535563667-1fcja2s34sdfhmr61e826me9f0ehg6qs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
